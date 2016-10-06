@@ -1,12 +1,13 @@
-#!/usr/bin/env node
+#!/usr/bin/env babel-node
 
 require('./helper')
+
 let fs = require('fs').promise
 
-function* echo() {
-    // Use 'yield' in here
+async function echo() {
     // Your implementation here
-    console.log(yield fs.readFile(__filename, console.log))
+    let data = await process.argv[2]
+    console.log(data)
 }
 
-module.exports = echo
+echo()

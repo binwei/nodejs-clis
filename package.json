@@ -35,5 +35,8 @@
     "eslint": "^3.7.0",
     "eslint-config-noderiety": "^1.1.1",
     "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "cli:echo": "node echo.js"
   }
 }
