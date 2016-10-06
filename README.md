@@ -26,5 +26,4 @@ Time spent: `7 hours`
 
 ## Walkthrough Gif:
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
-![Video Walkthrough](...)
+![Video Walkthrough](https://cloud.githubusercontent.com/assets/1187392/19171244/a14e5a94-8bd0-11e6-9181-d10c3c291d1f.gif)
